@@ -1,0 +1,13 @@
+name: CDISCovery
+title: CDISCovery
+username:
+account: huntershen
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6992858
+bundleId: 6296537
+url: https://huntershen.shinyapps.io/CDISCovery/
+when: 1663049156.98018
+lastSyncTime: 1663049156.98019
+asMultiple: FALSE
+asStatic: FALSE
