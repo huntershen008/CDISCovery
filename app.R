@@ -7,6 +7,7 @@
 options( "golem.app.prod" = TRUE)
 options(shiny.sanitize.errors = FALSE)
 options(shiny.autoload.r=FALSE) # needed if remove R/_disable_autoload.R
+options(timeout=9999999)
 # rsconnect::writeManifest() # Needed for continuous deployment
 
 # build app
@@ -18,9 +19,7 @@ options(shiny.autoload.r=FALSE) # needed if remove R/_disable_autoload.R
 # document()
 # check()
 
-# install("CDISCovery")
 # library(githubinstall)
-options(timeout=9999999)
 install_github("huntershen008/CDISCovery", force = T)
 
 # Launch the app

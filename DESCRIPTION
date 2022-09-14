@@ -16,6 +16,7 @@ Imports:
     GGally,
     ggcorrplot,
     ggplot2,
+    githubinstall, 
     glue,
     golem,
     gt,
