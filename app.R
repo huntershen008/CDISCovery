@@ -12,6 +12,11 @@ options(shiny.autoload.r=FALSE) # needed if remove R/_disable_autoload.R
 options(timeout=9999999)
 # rsconnect::writeManifest() # Needed for continuous deployment
 
+
+# install from github
+library(devtools)
+install_github("huntershen008/CDISCovery", force = T)
+
 # Launch the app
 # deploying on shinyapps.io will install from locally installed package not on CRAN
 library(CDISCovery)
