@@ -19,10 +19,9 @@ options(shiny.autoload.r=FALSE) # needed if remove R/_disable_autoload.R
 # check()
 
 # install("CDISCovery")
-# install.packages("githubinstall")
 # library(githubinstall)
-
-
+options(timeout=9999999)
+install_github("huntershen008/CDISCovery", force = T)
 
 # Launch the app
 library(CDISCovery)
