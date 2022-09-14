@@ -11,19 +11,22 @@
 
 # build app
 # install.packages("devtools")
-# library(devtools)
-# library(roxygen2)
-# setwd("..")
+library(devtools)
+library(roxygen2)
+build()
+install()
+document()
+check()
+
+
 # install("CDISCovery")
 
-install_github("huntershen008/CDISCovery")
+# install_github("huntershen008/CDISCovery")
 
 options(shiny.autoload.r=FALSE)
 # Launch the app
 library(tidyCDISC)
 tidyCDISC::run_app() # add parameters here (if any)
-
-
 
 # turn off any options
 # options(shiny.autoload.r=NULL) # needed if remove R/_disable_autoload.R
